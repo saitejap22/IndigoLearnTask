@@ -1,0 +1,38 @@
+.pl-bg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e6f3e3;
+  margin-top: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.pl-head {
+  font-size: 50px;
+  margin: 0;
+}
+.pl-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.pl-note {
+  font-size: 25px;
+}
+.pl-icon {
+  margin-right: 10px;
+}
+.pl-line {
+  background-color: #31307e;
+  width: 120px;
+  height: 13px;
+  margin: 0;
+  border-radius: 12px;
+}
+.pl-text {
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  line-height: 0.5;
+}

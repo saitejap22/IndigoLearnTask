@@ -1,0 +1,97 @@
+.banner-bg {
+  background-color: #e6f3e3;
+  min-height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.left-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.banner-head {
+  font-size: 40px;
+  color: #323f4b;
+}
+.banner-text {
+  font-size: 20px;
+  color: #323f4b;
+}
+.banner-btns {
+  display: fl90ex;
+  align-items: center;
+  margin-top: 30px;
+}
+.blue-btn {
+  background-color: #403392;
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  margin-right: 10px;
+  border-radius: 6px;
+  padding: 10px;
+}
+.red-btn {
+  background-color: #f93708;
+  color: white;
+  font-weight: 600;
+  font-size: 14px;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  border-radius: 6px;
+  padding: 10px;
+}
+.red-span {
+  border: 1px solid white;
+  margin-left: 3px;
+  padding: 4px;
+}
+.right-section {
+  margin-left: 30px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 1px 1px 1px 1px #909090;
+  border-top: 2px solid #403392;
+  border-radius: 7px;
+  padding: 30px;
+  background-color: white;
+}
+.form-head {
+  font-size: 24px;
+  font-weight: 600;
+  color: #323f4b;
+}
+.input-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.input {
+  font-size: 20px;
+  color: #909090;
+  border: 0.5px solid #909090;
+  padding-left: 10px;
+  padding: 10px;
+  border-radius: 6px;
+  outline: none;
+}
+.form-btn {
+  background-color: #403392;
+  color: white;
+  font-weight: 600;
+  font-size: 23px;
+  border-radius: 8px;
+  padding: 10px;
+  outline: none;
+  cursor: pointer;
+  border: none;
+}

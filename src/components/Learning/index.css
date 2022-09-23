@@ -1,0 +1,81 @@
+.le-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+.le-head {
+  font-size: 50px;
+  margin: 0;
+}
+.le-line {
+  background-color: #31307e;
+  width: 120px;
+  height: 13px;
+  margin: 0;
+  border-radius: 12px;
+}
+.le-ul {
+  list-style-type: disc;
+  display: flex;
+}
+.le-li {
+  display: flex;
+  list-style-type: disc;
+  flex-direction: column;
+  border-radius: 10px;
+  margin: 20px;
+  box-shadow: 2px 2px 2px 2px #f1eceb;
+}
+.le-top {
+  background-color: #31307e;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 80px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 20px;
+}
+.le-top-text {
+  font-size: 22px;
+  color: #ffff;
+  font-weight: 600;
+  margin-top: 0;
+}
+.le-caution {
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 0;
+}
+.le-bottom {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.le-btm-text {
+  font-size: 18px;
+  line-height: 1px;
+  color: #323f4b;
+  display: flex;
+  align-items: center;
+}
+
+.le-btn {
+  background-color: #31307e;
+  color: white;
+  font-weight: 600;
+  font-size: 14px;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  border-radius: 6px;
+  padding: 10px;
+  align-self: center;
+  width: 50%;
+}

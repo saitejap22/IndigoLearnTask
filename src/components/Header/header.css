@@ -1,0 +1,39 @@
+.nav-div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 50x;
+  background-color: #31307e;
+}
+.ham-head {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.nav-head {
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+  margin-left: 10px;
+}
+.nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+.nav-item {
+  font-size: 20px;
+  color: white;
+  font-weight: 600;
+  margin: 10px;
+}
+.nav-btn {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  font-weight: 700;
+  color: #31307e;
+  background-color: white;
+  border-radius: 6px;
+  padding: 8px 16px 8px 16px;
+}

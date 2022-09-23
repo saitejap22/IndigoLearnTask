@@ -1,0 +1,93 @@
+.why-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+.why-head {
+  font-size: 50px;
+  margin: 0;
+}
+.why-line {
+  background-color: #31307e;
+  width: 120px;
+  height: 13px;
+  margin: 0;
+  border-radius: 12px;
+}
+.why-ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.why-li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  margin: 20px;
+  box-shadow: 2px 2px 2px 2px #f1eceb;
+}
+.why-top {
+  background-color: #31307e;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 80px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 20px;
+}
+.why-top-text {
+  font-size: 22px;
+  color: #ffff;
+  font-weight: 600;
+  margin-top: 0;
+}
+.why-bottom {
+  background-color: #e6f3e3;
+  display: flex;
+  flex-direction: column;
+}
+.why-btm-text {
+  font-size: 18px;
+  line-height: 1px;
+  color: #323f4b;
+}
+.note-link {
+  display: flex;
+  align-items: center;
+}
+.why-note {
+  font-size: 26px;
+  color: #323f4b;
+}
+.link {
+  font-size: 26px;
+  color: blue;
+  margin-left: 10px;
+  text-decoration: none;
+}
+.why-btn {
+  background-color: #f93708;
+  color: white;
+  font-weight: 600;
+  font-size: 14px;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  border-radius: 6px;
+  padding: 10px;
+}
+.why-span {
+  border: 1px solid white;
+  margin-left: 3px;
+  padding: 4px;
+}
